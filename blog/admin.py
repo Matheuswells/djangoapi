@@ -1,5 +1,5 @@
 from django.contrib import admin
-from portfolio.models import User 
+from blog.models import User
 
 class Users(admin.ModelAdmin):
     list_display = ('id','username', 'name', 'last_name', 'birthday')
@@ -7,6 +7,3 @@ class Users(admin.ModelAdmin):
     pass
 
 admin.site.register(User, Users)
-
-
-

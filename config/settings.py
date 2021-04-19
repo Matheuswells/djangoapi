@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'portfolio',
+    'blog',
     'rest_framework',
 ]
 
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
-    'portfolio.middleware.TMiddleware'
+    'blog.middleware.TMiddleware'
 ]
 
 ROOT_URLCONF = 'config.urls'

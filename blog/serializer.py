@@ -1,6 +1,5 @@
 from rest_framework import serializers
-from portfolio.models import User
-
+from blog.models import User
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta: 

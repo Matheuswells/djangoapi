@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from portfolio.views import  UsersViewSet
+from blog.views import  UsersViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter()
